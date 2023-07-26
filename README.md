@@ -1,6 +1,4 @@
-<p align="center" style="font-size:40px;">
-	FireBase Auth Demo🔥
-</p>
+# FireBase Auth Demo🔥
 
 <p align="center">
 Screenshots
