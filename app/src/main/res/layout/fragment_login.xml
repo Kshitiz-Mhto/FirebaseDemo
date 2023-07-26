@@ -25,15 +25,23 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="15dp"
-            android:layout_marginBottom="35dp"
+            android:layout_marginBottom="75dp"
             android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/login_logo" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
+                android:layout_marginTop="30dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -52,7 +60,7 @@
                     android:hint="  Drop your email, fam! 📧"
                     android:inputType="textEmailAddress"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/black"
+                    android:textColorHint="#777070"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -78,7 +86,7 @@
                     android:hint="  Unlock your vault bro! 🔐"
                     android:inputType="textPassword"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/black"
+                    android:textColorHint="#777070"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -90,6 +98,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/btnLogin"
                     android:layout_width="165dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -101,6 +110,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:id="@+id/btnSignup"
                     android:layout_width="165dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
