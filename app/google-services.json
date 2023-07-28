@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "107479119961",
-    "project_id": "fir-auth-1dbdb",
-    "storage_bucket": "fir-auth-1dbdb.appspot.com"
+    "project_number": "1053567208668",
+    "project_id": "fir-authdemo-d4569",
+    "storage_bucket": "fir-authdemo-d4569.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:107479119961:android:05e03f6dfaa84a52425948",
+        "mobilesdk_app_id": "1:1053567208668:android:f64c56013188a5e5d17819",
         "android_client_info": {
           "package_name": "com.wisewords.firebaseauthdemo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "107479119961-5kresi0q827j5s7oipkmcgpc65jjikj3.apps.googleusercontent.com",
+          "client_id": "1053567208668-0om95u2c1a3s5mn3lu1jfoucqt1bi03f.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA0EFvZjhSLtZre7oxUsyl-ZN12iPPqLc4"
+          "current_key": "AIzaSyD85Osan0h7xbVfpUFX-fmPmanRq_xLJQs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "107479119961-5kresi0q827j5s7oipkmcgpc65jjikj3.apps.googleusercontent.com",
+              "client_id": "1053567208668-0om95u2c1a3s5mn3lu1jfoucqt1bi03f.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

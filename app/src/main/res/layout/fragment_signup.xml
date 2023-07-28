@@ -15,19 +15,19 @@
         app:cardCornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.577">
+        app:layout_constraintVertical_bias="0.333">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginStart="14dp"
+            android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="15dp"
-            android:layout_marginBottom="35dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="20dp"
             android:orientation="vertical">
 
             <ImageView
@@ -41,13 +41,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/etFirstName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="100dp"
+                    android:layout_marginEnd="80dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/poppins_light"
                     android:text="First Name*"
@@ -72,14 +73,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:orientation="horizontal">
 
                 <EditText
                     android:id="@+id/etFillFirstName"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
-                    android:layout_marginEnd="35dp"
+                    android:layout_marginEnd="15dp"
                     android:layout_weight="1"
+                    android:paddingStart="10dp"
                     android:background="@drawable/curve_signup_bg"
                     android:fontFamily="@font/poppins_light"
                     android:hint="Kshitiz"
@@ -96,6 +100,7 @@
                     android:background="@drawable/curve_signup_bg"
                     android:fontFamily="@font/poppins_light"
                     android:hint="Mahato"
+                    android:paddingStart="10dp"
                     android:inputType="text"
                     android:textColor="@color/black"
                     android:textColorHint="#777070"
@@ -108,6 +113,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_weight="1"
+                android:layout_marginStart="10dp"
                 android:fontFamily="@font/poppins_light"
                 android:text="Email*"
                 android:textColor="@color/black"
@@ -118,7 +124,10 @@
                 android:id="@+id/etFillEmail"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginTop="3dp"
+                android:paddingStart="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/curve_signup_bg"
                 android:fontFamily="@font/poppins_light"
                 android:hint="nkcmcdhy@gmail.com"
@@ -131,6 +140,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -162,6 +173,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
                 android:orientation="horizontal">
 
                 <EditText
@@ -172,6 +185,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/curve_signup_bg"
                     android:ems="6"
+                    android:paddingStart="10dp"
                     android:fontFamily="@font/poppins_semibold"
                     android:hint=""
                     android:inputType="textPassword"
@@ -187,6 +201,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/curve_signup_bg"
                     android:ems="6"
+                    android:paddingStart="10dp"
                     android:fontFamily="@font/poppins_semibold"
                     android:hint=""
                     android:inputType="textPassword"
@@ -201,6 +216,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:fontFamily="@font/poppins_light"
                 android:text="I agree with NKCM's agreements."
                 android:textColor="@color/black"
@@ -211,7 +228,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_light"
+                android:layout_marginEnd="10dp"
                 android:text="I am Robot"
+                android:layout_marginStart="10dp"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -251,9 +270,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="-8dp"
+                    android:layout_marginStart="-8dp"
                     android:background="@android:color/transparent"
                     android:fontFamily="@font/montserrat_bold"
-                    android:text="Sign UP"
+                    android:text="log In"
                     android:textColor="#0F32FA"
                     android:textSize="19sp"
                     app:backgroundTint="@null" />
