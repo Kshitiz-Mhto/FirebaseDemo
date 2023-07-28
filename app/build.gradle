@@ -2,9 +2,13 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'androidx.navigation.safeargs'
+    // Add the Google services Gradle plugin
+    id("com.google.gms.google-services")
+
 }
 
 apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     namespace 'com.wisewords.firebaseauthdemo'
@@ -42,6 +46,7 @@ android {
 
 dependencies {
 
+    implementation 'com.google.firebase:firebase-database-ktx:20.0.4'
     def lifecycle_version = "2.6.1"
     def nav_version = "2.5.0"
 
@@ -50,6 +55,16 @@ dependencies {
 
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    // Import the Firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:32.2.0"))
+
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+
+    // Add the dependency for the Firebase SDK for Google Analytics
+    implementation("com.google.firebase:firebase-analytics-ktx")
+
+    implementation("com.google.firebase:firebase-auth-ktx")
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
