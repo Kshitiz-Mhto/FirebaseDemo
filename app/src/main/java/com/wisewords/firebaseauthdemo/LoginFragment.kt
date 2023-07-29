@@ -27,6 +27,11 @@ class LoginFragment : Fragment() {
                 R.id.action_loginFragment_to_signupFragment
             )
         }
+        binding.btnLogin.setOnClickListener {
+            findNavController().navigate(
+                R.id.action_loginFragment_to_loggedUserFragment
+            )
+        }
 
         return binding.root
     }
