@@ -57,7 +57,7 @@
     </fragment>
     <fragment
         android:id="@+id/updateFragment"
-        android:name="com.wisewords.firebaseauthdemo.UpdateFragment"
+        android:name="com.wisewords.firebaseauthdemo.updateUI.UpdateFragment"
         android:label="fragment_update"
         tools:layout="@layout/fragment_update" >
         <action
