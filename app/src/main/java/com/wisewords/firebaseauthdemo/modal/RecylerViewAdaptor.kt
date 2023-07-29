@@ -33,6 +33,7 @@ class RecylerViewAdaptor(val searchList: List<Army>?, val context: Context) : Re
 
         holder.myTextView.setOnClickListener {
             val editor = sp.edit()
+            editor.putString("id", index_element.armyId)
             editor.putString("firstName", index_element.armyFirstName)
             editor.putString("lastName", index_element.armyLastName)
             editor.putString("email", index_element.armyEmail)

@@ -59,5 +59,14 @@
         android:id="@+id/updateFragment"
         android:name="com.wisewords.firebaseauthdemo.UpdateFragment"
         android:label="fragment_update"
-        tools:layout="@layout/fragment_update" />
+        tools:layout="@layout/fragment_update" >
+        <action
+            android:id="@+id/action_updateFragment_to_loggedUserFragment"
+            app:destination="@id/loggedUserFragment"
+            app:enterAnim="@anim/push_down_in"
+            app:popEnterAnim="@anim/push_down_in" />
+        <action
+            android:id="@+id/action_updateFragment_self"
+            app:destination="@id/updateFragment" />
+    </fragment>
 </navigation>
